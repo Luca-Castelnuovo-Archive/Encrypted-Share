@@ -18,6 +18,7 @@ if (isset($_GET['code'])) {
     <!-- Config -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="manifest" href="/manifest.json"></link>
     <title>Share</title>
 
     <!-- SEO -->
