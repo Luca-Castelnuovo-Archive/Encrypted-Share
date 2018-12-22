@@ -1,7 +1,7 @@
 <?php
 
 function METHOD_GET($token) {
-    $token = check_data($token, true, 'token', true);
+    $token = check_data($token, true, 'Token', true);
     $message = sql_select('messages', 'expires,message,used', "token='{$token}'", false);
 
     if ($message->num_rows != 1) {
