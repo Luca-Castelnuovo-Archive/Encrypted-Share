@@ -63,7 +63,7 @@ function auth_get_access_token($client_id, $client_secret, $code, $provided_stat
         throw new Exception('code empty');
     }
 
-    if (empty($state)) {
+    if (empty($provided_state)) {
         throw new Exception('state empty');
     }
 
