@@ -1,7 +1,6 @@
 <?php
 
 function METHOD_POST($access_token, $message, $expires) {
-    response(false, 'access_token', ['token' => $access_token]);
     $access_token = check_data($access_token, true, 'Access Token', true);
     $message = check_data($message, true, 'Message', true);
     $expires = check_data($expires, true, 'Expires', true);

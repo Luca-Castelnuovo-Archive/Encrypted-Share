@@ -11,6 +11,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
         break;
 
     case 'POST':
+        response(false, 'access_token', ['token' => $_POST['access_token']]);
         $output = METHOD_POST($_POST['access_token'], $_POST['message'], $_POST['expires']);
         break;
 
