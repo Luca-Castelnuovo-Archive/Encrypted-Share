@@ -105,7 +105,7 @@ function api_get_token($access_token) {
         throw new Exception('access_token empty');
     }
 
-    $token_request = json_decode(file_get_contents("{$GLOBALS['auth']->api_token}?access_token={$access_token}"));
+    $token_request = json_decode(file_get_contents("{$GLOBALS['auth']->api_token}?access_token={$access_token}"), true);
 
     if (!$token_request['success']) {
         throw new Exception($token_request['error']);
