@@ -27,7 +27,7 @@ submitBtn.addEventListener("click", function() {
                 const html = `
                     <div class='row'>
                         <div class='input-field col s12'>
-                            <input type="text" value="${json.url}" readonly onclick="copyURL();">
+                            <input id="inputURL" type="text" value="${json.url}" readonly onclick="copyURL();">
                         </div>
                     </div>
                     <div class='row'>
