@@ -60,7 +60,7 @@ submitBtn.addEventListener("click", function() {
 });
 
 function copyURL() {
-    const inputURL = document.querySelector("#inputURL").value;
+    const inputURL = document.querySelector("#inputURL");
     inputURL.select();
     document.execCommand("copy");
     M.toast({html: "Copied link"});
