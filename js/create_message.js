@@ -27,7 +27,7 @@ submitBtn.addEventListener("click", function() {
                 const html = `
                     <div class='row'>
                         <div class='input-field col s12'>
-                            <textarea id='textarea-message' class='materialize-textarea'>${json.url}</textarea>
+                            <input type="text" value="${json.url}" readonly onclick="myFunction()">
                         </div>
                     </div>
                     <div class='row'>
