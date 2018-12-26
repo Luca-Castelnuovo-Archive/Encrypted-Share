@@ -58,3 +58,10 @@ submitBtn.addEventListener("click", function() {
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.send(`access_token=${access_token}&message=${inputMessage}&expires=${inputExpires}`);
 });
+
+function copyURL() {
+    const inputURL = document.querySelector("#inputURL").value;
+    inputURL.select();
+    document.execCommand("copy");
+    M.toast({html: "Copied link"});
+}
