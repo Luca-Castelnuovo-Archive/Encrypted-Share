@@ -56,7 +56,7 @@ submitBtn.addEventListener("click", function() {
         }
     }
 
-    xhr.open('POST', `/message/?access_token=${access_token}&message=${inputMessage}&expires=${inputExpires}`);
+    xhr.open('POST', `/message/?access_token=${access_token}&message=${inputMessage}&expires=${inputExpires}`, true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.send();
 });
