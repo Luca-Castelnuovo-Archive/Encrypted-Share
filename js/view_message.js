@@ -15,7 +15,7 @@ const inputToken = document.querySelector("#inputToken").value;
             if (xhr.status === 200 && xhr.status < 300) {
                 var json = JSON.parse(xhr.responseText);
 
-                if (!json.status) {
+                if (!json.success) {
                     M.Toast.dismissAll();
                     M.toast({html: json.error});
                     submitBtn.innerHTML = "View message";

@@ -17,7 +17,7 @@ submitBtn.addEventListener("click", function() {
             if (xhr.status === 200 && xhr.status < 300) {
                 var json = JSON.parse(xhr.responseText);
 
-                if (!json.status) {
+                if (!json.success) {
                     M.Toast.dismissAll();
                     M.toast({html: json.error});
                     submitBtn.innerHTML = "Create Message";
