@@ -27,9 +27,7 @@ submitBtn.addEventListener("click", function() {
                 const html = `
                     <div class='row'>
                         <div class='input-field col s12'>
-                            <textarea id='textarea-message' class='materialize-textarea'>
-                                ${json.url}
-                            </textarea>
+                            <textarea id='textarea-message' class='materialize-textarea'>${json.url}</textarea>
                         </div>
                     </div>
                     <div class='row'>
