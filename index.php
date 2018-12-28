@@ -31,7 +31,7 @@ if (isset($_GET['code'])) {
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.lucacastelnuovo.nl/general/css/materialize.css">
     <style>.input-field input:focus+label{color:#2962ff!important}.input-field input:focus{border-bottom:1px solid #2962ff!important;box-shadow:0 1px 0 0 #2962ff!important}</style>
 </head>
 
@@ -64,8 +64,8 @@ if (isset($_GET['code'])) {
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="/js/view_message.js"></script>
+    <script src="https://cdn.lucacastelnuovo.nl/general/js/materialize.js"></script>
+    <script src="https://cdn.lucacastelnuovo.nl/share.lucacastelnuovo.nl/js/view_message.js"></script>
 </body>
 
 </html>
