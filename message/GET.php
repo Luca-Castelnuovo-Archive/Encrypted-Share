@@ -11,12 +11,12 @@ function METHOD_GET($token) {
     }
 
     if ($message['used']) {
-        response(false, ["error" => "Token already used"]);
+        response(false, 'Token already used');
     }
 
     if ($message['expires'] <= time()) {
         sql_update('messages', ['used' => '1', 'message' => 'EXPIRED'], "token='{$token}'");
-        response(false, ["error" => "Token expired"]);
+        response(false, 'Token expired');
     }
 
     sql_update('messages', ['used' => '1', 'message' => 'VIEWED'], "token='{$token}'");
