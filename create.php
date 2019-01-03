@@ -64,8 +64,8 @@ if (isset($_GET['request_access'])) {
     </div>
 
     <script src="https://cdn.lucacastelnuovo.nl/general/js/materialize.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-    <script src="https://cdn.lucacastelnuovo.nl/share.lucacastelnuovo.nl/js/create_message.5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+    <script src="https://cdn.lucacastelnuovo.nl/share.lucacastelnuovo.nl/js/create_message.6.js"></script>
 
     <?php if (!isset($_GET['access_token'])) { ?>
         <div class="modal">
