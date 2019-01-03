@@ -65,7 +65,7 @@ if (isset($_GET['request_access'])) {
 
     <script src="https://cdn.lucacastelnuovo.nl/general/js/materialize.js"></script>
     <script src="https://cdn.lucacastelnuovo.nl/general/js/clipboard.js"></script>
-    <script src="https://cdn.lucacastelnuovo.nl/share.lucacastelnuovo.nl/js/create_message.2.js"></script>
+    <script src="https://cdn.lucacastelnuovo.nl/share.lucacastelnuovo.nl/js/create_message.3.js"></script>
 
     <?php if (!isset($_GET['access_token'])) { ?>
         <div class="modal">
