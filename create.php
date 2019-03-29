@@ -30,6 +30,9 @@ if (isset($_GET['request_access'])) {
     <link rel="stylesheet" href="https://cdn.lucacastelnuovo.nl/general/css/materialize.css">
     <style>.input-field input:focus+label{color:#2962ff!important}.input-field input:focus{border-bottom:1px solid #2962ff!important;box-shadow:0 1px 0 0 #2962ff!important}</style>
     <style>textarea.materialize-textarea:focus+label{color:#2962ff!important} textarea.materialize-textarea:focus{border-bottom:1px solid #2962ff!important;box-shadow:0 1px 0 0 #2962ff!important}</style>
+
+    <!-- Analytics -->
+    <script src="https://cdn.lucacastelnuovo.nl/tracking/11"></script>
 </head>
 
 <body>
