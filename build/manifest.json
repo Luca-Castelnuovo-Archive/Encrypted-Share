@@ -1,0 +1,113 @@
+{
+"background_color": "transparent",
+"description": "A system to securely share secrets",
+"dir": "ltr",
+"display": "standalone",
+"icons": [
+	{
+		"sizes": "44x44",
+		"src": "/images/b74242f0-6238-7757-ea78-d7f12d10d920.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "48x48",
+		"src": "/images/34f8039a-6a6b-7a85-edc7-ee100220d3b0.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "1240x600",
+		"src": "/images/bab9f1d0-a19d-ca34-ddf5-220736d22c87.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "300x300",
+		"src": "/images/8e632bb4-412c-ac83-fb22-66708e116d81.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "150x150",
+		"src": "/images/967868b3-52c6-aa85-ca7c-1eaa96a66f5f.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "88x88",
+		"src": "/images/ca875377-884f-38c3-5259-a6550e9e6189.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "24x24",
+		"src": "/images/7bfbd52d-5001-2f4a-eb30-4160f6ad7c6c.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "50x50",
+		"src": "/images/479a63f5-a6aa-da9f-7219-21d6c5ac2593.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "620x300",
+		"src": "/images/fc4d4e36-7d63-4746-fdce-544243848185.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "192x192",
+		"src": "/images/516b1e57-ee3e-a23b-3db7-42dedd432d2f.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "144x144",
+		"src": "/images/a26fbbb5-7185-5340-fa8f-62406cb3f32e.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "96x96",
+		"src": "/images/ad0b09d7-704f-eeaf-06a1-9f9ae95d69ae.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "72x72",
+		"src": "/images/3d7db510-1770-95ad-c435-ac035e24ed05.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "36x36",
+		"src": "/images/de61d866-3d00-6be5-8aef-b16c23758a45.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "1024x1024",
+		"src": "/images/e3e5228d-6944-0d84-be90-07f6e8ed743c.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "180x180",
+		"src": "/images/15acfd5a-e2f3-f76c-caf0-f96a71af1511.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "152x152",
+		"src": "/images/1a76c1fc-b885-5b5c-fe48-53369c2976f1.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "120x120",
+		"src": "/images/7ed834b6-eae8-3e34-48d7-c61771471ebf.webPlatform.png",
+		"type": "image/png"
+		},
+	{
+		"sizes": "76x76",
+		"src": "/images/7076b1df-e34e-20a9-da7b-a4d3e1c60d7d.webPlatform.png",
+		"type": "image/png"
+		}
+	],
+"lang": "en",
+"name": "Share Secrets",
+"orientation": "portrait-primary",
+"prefer_related_applications": false,
+"related_applications": [
+	],
+"scope": "/",
+"short_name": "Share",
+"start_url": "https://share.lucacastelnuovo.nl/",
+"theme_color": "transparent"
+}
