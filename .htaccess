@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Clean URL
+RewriteRule ^view/([^/]+)/$ index.php?token=$1&hide
+RewriteRule ^view/([^/]+)$ index.php?token=$1&hide
+
+RewriteRule ^create/([^/]+)/$ create.php?access_token=$1
+RewriteRule ^create/([^/]+)$ create.php?access_token=$1
+
+# Remove .PHP from url
+RewriteCond %{DOCUMENT_ROOT}/$1\.php -f
+RewriteRule ^(.+?)/?$ /$1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ - [L]
